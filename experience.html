@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+  .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+</style>
+
+<body>
+    
+    <div class="exp">
+
+        <h2>Experience:</h2>
+    
+        <ul>
+          <li><b class="exp-1">Ferozewala Tehseel as an Associate</b> from January 2019 - April 2019 </li>
+          <li><b class="exp-1">Tipu Law Associate</b> from 30 may 2019 - 30 june 2021 </li>
+          <li><b class="exp-1">Tanveer Law Associates</b> from 5 september 2021 - January 2022</li>
+          <li><b class="exp-1">CSG Law Firm as Associate</b> from February 2022 - present</li>
+        </ul>
+    
+      </div>
+    
+
+      <p>This is some text with a <span class="tooltip">tooltip<span class="tooltiptext">This is additional information</span></span>.</p>
+
+
+
+</body>
+</html>

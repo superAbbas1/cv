@@ -1,0 +1,340 @@
+/******home page******/
+
+.bg-pic{
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+.intro-box{
+  opacity: 0.5;
+  border-style: double;
+  background-color: black;
+  position: absolute;
+  top: 190px;
+  width: 100%;
+  height: 370px;
+}
+
+.court{
+  position: absolute;
+  opacity: 0.8;
+  padding: 5px;
+  height: 600px;
+  width: 100%;
+}
+
+
+.image{
+  border-style: ridge;
+  width: 360px;
+  height: 280px;
+  box-shadow: 4px 4px 8px black;
+  border-radius: 100%;
+  position: absolute;
+  left: 890px;
+  top: 245px;
+}
+
+
+.text-1{
+  color: bisque;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  left: 265px;
+  top: 220px;
+}
+
+.name{
+  color: aliceblue;
+  text-shadow: 1px 1px 5px whitesmoke;
+  font-family: 'Genos', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  top: 310px;
+  left: 265px;
+}
+
+.para{
+  color:aliceblue;
+  text-align: center;
+  font-family: 'Shantell Sans', cursive;
+  font-style: oblique;
+  font-size: medium;
+  position: absolute;
+  top: 390px;
+  left: 34px;
+}
+
+
+.line{
+  background-color: aliceblue;
+  border: dotted;
+  width: 10%;
+  position: relative;
+  top: 600px;
+  text-align: center;
+}
+
+/*****service******/
+
+.service{
+  background-color: #f0f3f5;
+  position: relative;
+  top:650px;
+  height: 300px;
+  width: 100%;
+}
+
+.service h2{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  position: relative;
+  top:10px;
+}
+
+.list1{
+  list-style-type:symbols();
+  position: relative;
+  top:50px;
+  left:20px;
+  font-size: 20px;
+}
+
+.list2{
+  position: relative;
+  bottom:120px;
+  left:700px;
+  font-size: 20px;
+}
+
+.info{
+  position: relative;
+}
+
+.add-info {
+  visibility: hidden;
+  width: 300px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  font-size: 15px;
+  overflow: auto;
+
+  /* Position the tooltip */
+  position: absolute;
+  bottom:-3px;
+  z-index: 1;
+}
+
+.info:hover .add-info {
+  visibility: visible;
+}
+
+
+
+/******cards*****/
+
+.card1{
+  border-style: double;
+  border-color: antiquewhite;
+  position: absolute;
+  top: 1150px;
+  left: 70px;
+}
+
+.card1-content{
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+
+.btn {
+  position: relative;
+  bottom: 10px;
+  margin: 10px 0px;
+  background: #f0f3f5;
+  background-image: -webkit-linear-gradient(top, #f0f3f5, #2980b9);
+  background-image: -moz-linear-gradient(top, #f0f3f5, #2980b9);
+  background-image: -ms-linear-gradient(top, #f0f3f5, #2980b9);
+  background-image: -o-linear-gradient(top, #f0f3f5, #2980b9);
+  background-image: linear-gradient(to bottom, #f0f3f5, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 0px 1px 10px #2b282b;
+  -moz-box-shadow: 0px 1px 10px #2b282b;
+  box-shadow: 0px 1px 10px #2b282b;
+  font-family: Arial;
+  color: #000000;
+  font-size: 16px;
+  padding: 9px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #676b73);
+  background-image: -moz-linear-gradient(top, #3498db, #676b73);
+  background-image: -ms-linear-gradient(top, #3498db, #676b73);
+  background-image: -o-linear-gradient(top, #3498db, #676b73);
+  background-image: linear-gradient(to bottom, #3498db, #676b73);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.card2{
+  border-style: double;
+  border-color: antiquewhite;
+  position: absolute;
+  top: 1150px;
+  left: 540px;
+}
+
+
+.card2-content{
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+
+.card3{
+  border-style: double;
+  border-color: antiquewhite;
+  position: absolute;
+  top: 1150px;
+  right: 70px;
+}
+
+.card3-content{
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.card2:hover, .card1:hover, .card3:hover{
+  background-color: antiquewhite;
+  color: black;
+  box-shadow: 3px 3px 8px wheat;
+}
+
+.card2:hover h3, .card1:hover h3, .card3:hover h3{
+  background-color: antiquewhite;
+  color: black;
+  box-shadow: 3px 3px 8px wheat;
+}
+
+.card2:hover p, .card1:hover p, .card3:hover p{
+color: black;
+}
+
+.card2:hover img, .card1:hover img, .card3:hover img{
+  box-shadow: 0px 3px 3px black;
+  }
+  
+
+/*contact box**/
+
+#contact{
+  height: 150px;
+  width: 100%;
+  position: relative;
+  top: 1130px;
+  border-top-style:groove;
+  background-color: rgb(253, 253, 253);
+}
+
+
+h6{
+  position: relative;
+  top: 60px;
+  text-align: center;
+}
+
+.contacts{
+  text-align: center;
+  position: relative;
+  top:80px;
+}
+
+.fa-brands{
+  opacity: 0.5;
+}
+
+.fa-brands:hover{
+  opacity:1;
+}
+
+
+/**********qualifications*******/
+
+
+
+.heading{
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  top: 40px;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.qual-para{
+  font-family: 'Fasthand', cursive;
+  position: relative;
+  top:50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+table{
+  font-size:large;
+  width: 80%;
+  position:relative;
+  top:100px;
+  left:140px;
+ vertical-align: bottom; 
+}
+
+th{
+  font-size: larger;
+  position: relative;
+  left: 50px;
+  padding: 5px;
+}
+
+td{
+  text-align: center;
+  height:200px;
+  width: 300px;
+  border-bottom: 1px double black;
+}
+
+
+tr:hover{
+  font-size: 20px;
+  text-shadow: 0px 0px 1px black
+}
+
+
+.qual-image{
+  vertical-align:middle;
+  border-radius: 200%;
+}
+
+.qual-image:hover{
+  box-shadow: 0px 4px 5px rgb(0, 0, 0);
+}
+
+
+
+
+
